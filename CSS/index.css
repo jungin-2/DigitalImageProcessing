@@ -1,0 +1,79 @@
+@font-face{
+	src: url(Pretendard-Regular.woff);
+	font-family:Speedeek;
+}
+*{
+	font-family: Speedeek;
+}
+html{
+	margin: 0 auto;
+	
+}
+
+body{
+	background: linear-gradient(to right,#00467F,#A5CC82);
+	background-repeat: repeat-y;
+	margin: 0 auto;
+	align-items: center;
+}
+
+a{
+	text-decoration: none;
+	color : inherit;
+}
+
+#inFile {
+	width: 200px;
+	margin: 0 auto;
+	align-items: center;
+	color: black;
+	background: #1f40377d;
+	border: none;
+	padding: 10px;
+	border-radius: 4px;
+	
+	transition: all .2s ease;
+	outline: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 50px;
+    position: relative;
+  }
+
+  #wrapper {
+	margin: 0 auto;
+	margin-top: 50px;
+	color: background-font;
+	font-size: 16px;
+	color: white;
+	background-color:#1f40377d;
+	width: 1030px;
+	display: grid;
+	grid-template-columns: repeat(10, 100px);
+	grid-template-rows: 50px 50px 50px 50px;
+	grid-column-gap: 3px;
+	grid-row-gap: 3px;  
+	text-align: center;
+	align-items: center;
+	
+  }
+
+
+#textArea{
+	margin-left: 50px;
+	margin-top: 150px;
+	color: white;
+	font-size: large;
+}
+
+
+
+#canvas{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 100px;
+	
+}
+
